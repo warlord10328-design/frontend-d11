@@ -5,7 +5,6 @@ import styles from "./page.module.css";
 import Home from "./page";
 
 export default function pageUser() {
-    const [active,setActive]=useState(false);
   return (
 <div>
       <div className={styles.image_bar}>
@@ -55,3 +54,4 @@ export default function pageUser() {
 </div>
   );
 }
+
