@@ -1,0 +1,119 @@
+.profile_image {
+  width: 20vw;
+  height: 20vw;
+  background: linear-gradient(135deg, #00e0ff, #5a87c9);
+  border-radius: 50%;
+  margin: 5vw auto 2vw;
+}
+.profile_name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00ff88;
+  text-align: center;
+}
+.user_email {
+  color: #a5b4d0;
+  font-size: 0.9rem;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+.section_title {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: transparent;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  border-left: 3px solid #ff009d;
+  padding-left: 8px;
+  background: linear-gradient(90deg, #ef0d8e, #8a03bd,#8a03bd,#8a03bd,#8a03bd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info_section {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.info_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 0.95rem;
+  gap: 10px;
+}
+
+.label {
+  background: linear-gradient(90deg, #0def82, #0388bd,#0388bd);
+  font-weight: 500;
+  width: 45%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.value {
+  color: #e5e9f0;
+  font-weight: 400;
+  text-align: right;
+  flex: 1;
+}
+
+/* Editable Inputs */
+.input_field {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(90, 135, 201, 0.4);
+  color: #e5e9f04c;
+  padding: 6px 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.input_field:focus {
+  color: #e5e9f0;
+  border-color: #00e0ff;
+  box-shadow: 0 0 8px rgba(0, 224, 255, 0.4);
+}
+.action_buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 25px;
+}
+.edit_bt,
+.logout_bt {
+  background: linear-gradient(120deg, #ef0d8e, #8a03bd);
+  color: #fff;
+  font-size: 4vw;
+  font-weight: bold;
+  padding: 2vw 6vw;
+  border: none;
+  border-radius: 1.5vw;
+  cursor: pointer;
+  box-shadow: 0 1vw 0 #6a027f;
+  transition: all 0.1s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  margin:3vw;
+  width:40vw;
+}
+.edit_bt:active{
+  transform: translateY(4px);
+  box-shadow: 0 0.5vw 0 #6a027f;
+}
+.logout_bt {
+  background: linear-gradient(120deg, #ff1900, #ff9900);
+  box-shadow: 0 1vw 0 #7f0c02;
+}
+.logout_bt:active{
+  transform: translateY(4px);
+  box-shadow: 0 0.5vw 0 #7f0c02;
+}
